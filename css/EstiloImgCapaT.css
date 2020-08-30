@@ -1,0 +1,63 @@
+/**{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}*/
+
+
+.CapaTransp{
+	/*background-image: url(../img/1.jpg);*/
+	/*width: 100%;
+	height: 600px;
+	background-size: cover;
+	position: relative;*/
+
+/**para acomodar las letras**/
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;	
+	align-items: center;*/
+}
+
+/**Seudoelementos**/
+
+.CapaTransp:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.5;
+}
+
+/**para que las letras no aparescan en el fondo**/
+.CapaTransp h1, h4{
+z-index: 1; /**Se pueden extraer las letras con "z-index" o con "position:relative"**/
+color: white;
+}
+
+/*.CapaTransp h1{
+	font-size: 60px;
+	font-family: "arial", sans-serif;
+
+
+}
+.CapaTransp h4{
+	font-size:25px;
+	font-family: "arial",sans-serif;
+	width: 60%;
+	text-align:center;
+}*/
+
+.marketing{
+	margin-top: 100px;
+}
+.imgBackGround {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/BackGround3.png);
+
+	opacity: 0.9;
+}

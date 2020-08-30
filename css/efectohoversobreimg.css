@@ -1,0 +1,47 @@
+div#imagen{
+	width: 445px;
+	height: 445px;
+	margin: 0px;
+					/*se le quito el "background-image: url();" y se le añadio position: relative;"***/
+	position: relative
+			}
+
+div#info{
+	position: absolute;
+	overflow: hidden;
+	width: 445px;
+	height: 445px;
+	background-color: rgba(31,31,31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	opacity: 0;
+	top: 0;											/*Esto fue añadido del còdigo original***/
+}
+
+div#imagen:hover div#info{
+	opacity: 0.5;
+}
+
+p#headline{
+	position: absolute;
+	margin-top: 20px;
+	-webkit-transition:margin 0.2s;
+	margin-left: -70px;
+	font-size: 21px;
+	color: white;
+}
+div#imagen:hover p#headline{
+	margin-left: 70px;
+
+}
+
+p#info2{
+	position:absolute;
+	width: 445px;
+	text-align:center;
+	-webkit-transition:margin 0.3s;
+	margin-top: 160px;
+	color: white;
+}
+div#imagen:hover p#info2{
+	margin-top: 200px;
+}
