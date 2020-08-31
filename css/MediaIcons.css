@@ -72,27 +72,27 @@
 	{
 		background:#1877f2;	
 	}
-	.social-container ul li:nth-child(2) a:before
+	/*.social-container ul li:nth-child(2) a:before
 	{
 		background:#1da1f2;	
-	}
-	.social-container ul li:nth-child(3) a:before
+	}twiter*/
+	.social-container ul li:nth-child(2) a:before
 	{
 		background:#25d366;	
-	}
-	.social-container ul li:nth-child(4) a:before
+	}/*se pone (2) ya que twiter se omitió*/
+	.social-container ul li:nth-child(3) a:before
 	{
 		background:#c32aa3;	
 	}
 
-	.social-container ul li:nth-child(5) a:before
+	.social-container ul li:nth-child(4) a:before
 	{
 		background:red;	
 	}
-	.social-container ul li:nth-child(6) a:before
+	/*.social-container ul li:nth-child(6) a:before
 	{
 		background:#ea4c89;	
-	}
+	}Se borró fa fa-dribbble*/
 
 
 	
