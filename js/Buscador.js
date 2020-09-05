@@ -76,7 +76,7 @@ Por ejemplo,en la URL http://unsitio.com/directorio/pagina.html, la ruta absolut
       //console.log(formulario1.value);
       const texto1 =formulario1.value.toLowerCase();
 
-ruta='';
+/*ruta='';*/
 var ruta =RutaAbsoluta()
 
 function RutaAbsoluta() {
@@ -84,7 +84,6 @@ function RutaAbsoluta() {
             var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
             return loc.href.substring(0, loc.href.length - ((loc.pathname + loc.search + loc.hash).length - pathName.length));
         }
-
 
                       if (ruta=="file:///C:/xampp/htdocs/Programacion/Git/GitHub/b/"){
                         valores=valores1;
