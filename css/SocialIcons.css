@@ -90,10 +90,10 @@
 	padding: 0;
 	background: transparent; /*original #dedede*/
 	margin-left: 5%;
-	margin-right: 5%;
+	margin-right: 5%;	
 	padding-top: 5%;
 	width: 45%;
-	margin-left: 55%;
+	/*margin-left: 55%;*/ /*los ubica a la izquierda laptop*/
 
 }
 

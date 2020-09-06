@@ -10,7 +10,7 @@
 			padding-top:30px; /*Responsive*/
 			position: relative; /*Responsive*/
 
-			background-image: url(../img/imgVideo.jpg);
+			background-image: url(../img/imgVideo1.jpg);
 			background-color: black;
 			/*width: 	70%;*/
 			background-size:cover;	
@@ -31,9 +31,16 @@
 		.mfp-hide{
 			display: none !important;
 				}
-
-
 		.button{
+			padding: 1% 10%;
+			border-color: red;
+			font-size: 5em;
+			/*font-weight: bold;*/
+			/*margin-top: 20%;*/
+			display: inline-block;
+				}
+
+		/*.button{
 			padding: 20px 40px;
 			border-color: white;
 			font-size: 17px;
@@ -42,10 +49,27 @@
 			font-weight: bold;
 			margin-top: 40px;
 			display: inline-block;
-				}
-
-
+				}*/
 		.button{
+			position: relative;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	text-align:center;
+	margin: 3% 1%;
+	border-radius: 50%;
+	color:white;
+	padding: 1%;			/*ojo1*/
+	box-sizing: border-box;
+	text-decoration: none;
+	/*box-shadow: 0 10px 15px rgb(0,0,0,0.3);
+	background:transparent;*/
+	transition:.5s;
+	text-align: center;
+				}	
+
+
+		/*.button{
 			border:2px solid white;
 			color:black;
 			text-transform: uppercase;
@@ -53,7 +77,7 @@
 			border-radius: 50px;
 			background:white;
 			font-weight: bold;
-				}	
+				}	*/
 
 			.button{
 					margin-bottom: 	8%;
@@ -66,30 +90,22 @@
 			.button:hover, .button:focus{
 								background: transparent;
 								text-decoration: none;
-								color:white;
+								color:red;
 								font-weight: bold;
 								outline: none;
 
 										}
-			#txtPopup{
-				color: black;
-				font-size: 50px;
-				font-family: arial;
-				font-weight: bold;
-				line-height: 72px;
-				letter-spacing: 2px;
-				margin: 100px 0 0 0;
-
-			}
-
 			iframe{
 					margin-left: 80px;
-					height: 100%; /*Responsive*/
-					left: 0; /*Responsive*/
-					position: absolute; /*Responsive*/
-					top: 0; /*Responsive*/
-					width:0; /*Responsive*/	
+					/*height: 100%; /*Responsive*/
+					/*left: 0; /*Responsive*/
+					/*position: absolute; /*Responsive*/
+					/*top: 0; /*Responsive*/
+					/*width:0; /*Responsive*/	
+
 					}
+
+		
 			button.mfp-close{
 					overflow: visible;
 					cursor: pointer;
@@ -114,7 +130,43 @@
 
 			}
 				
-
+@media (min-width: 48em) {
+ .button{
+			padding: 5% 10%;
+			border-color: red;
+			font-size: 8em;
+			/*font-weight: bold;*/
+			/*margin-top: 20%;*/
+			display: inline-block;
+				}
+.button{
+			position: relative;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	text-align:center;
+	margin: 15% 1%;
+	border-radius: 50%;
+	color:white;
+	padding: 1%;			/*ojo1*/
+	box-sizing: border-box;
+	text-decoration: none;
+	/*box-shadow: 0 10px 15px rgb(0,0,0,0.3);
+	background:transparent;*/
+	transition:.5s;
+	text-align: center;
+				}	
+  }
+/*.button{
+			padding: 20px 40px;
+			border-color: white;
+			font-size: 17px;
+			font-size: 1.7rem;
+			font-family: tahoma;
+			font-weight: bold;
+			margin-top: 40px;
+			display: inline-block;
+				}*/
 /*prueba borrar si no se asegura*/
  
 /*@media screen and (max-width:992px){
