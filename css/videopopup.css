@@ -4,14 +4,18 @@
 			text-align: center;
 				}
 		.videopopup{
+			height: 0;	/*Responsive*/
+			overflow: hidden; /*Responsive*/
+			padding-bottom: 56.25%; /*Responsive*/
+			padding-top:30px; /*Responsive*/
+			position: relative; /*Responsive*/
 
-			background-image: url(../img/FondoV.jpg);
+			background-image: url(../img/imgVideo.jpg);
 			background-color: black;
-			width: 	70%;
+			/*width: 	70%;*/
 			background-size:cover;	
 			background-repeat: no-repeat;
 			font-family: tahoma;
-			overflow: hidden;
 			/*background: transparent;*/
 			}
 			
@@ -80,6 +84,11 @@
 
 			iframe{
 					margin-left: 80px;
+					height: 100%; /*Responsive*/
+					left: 0; /*Responsive*/
+					position: absolute; /*Responsive*/
+					top: 0; /*Responsive*/
+					width:0; /*Responsive*/	
 					}
 			button.mfp-close{
 					overflow: visible;
@@ -104,4 +113,139 @@
 				right: 40px;
 
 			}
-	
+				
+
+/*prueba borrar si no se asegura*/
+ 
+/*@media screen and (max-width:992px){
+ 	h1{
+ 		font-size: 37px;
+ 	}
+
+ 	h5{
+ 		font-size: 34px;
+ 	}
+ 	p{
+ 		font-size: 20px;
+ 	}
+
+ 	.conten p{
+ 		font-size: 18px;
+ 	}
+ 	
+ 	
+ }
+ @media screen and (max-width:600px){
+ 	h1{
+ 		font-size: 20px;
+ 	}
+
+ 	h5{
+ 		font-size: 12px;
+ 	}
+ 	p{
+ 		font-size: 15px;
+ 	}
+
+ 	.icon-block .light{
+ 		font-size: 15px;
+ 	}
+ 	img {
+ 		height: 80px;
+ 		width: 80px;
+ 		margin: 20px;
+	padding: 2px;
+	margin-top: auto;
+	margin-bottom: auto;
+	box-sizing: border-box;
+ 	}
+ 	.cf{
+ 			
+ 		position: absolute;
+
+ 		
+ 	}
+ 	
+ }
+
+@media screen and (max-width:302px){
+ 	h1{
+ 		font-size: 20px;
+
+ 		}
+ 	h5{
+ 		font-size: 18px;
+ 	}
+ 	img {
+ 		height: 53px;
+ 		width: 53px;
+ 		margin-top: 20px;
+
+ 	}
+ 	.cf{
+ 		position: absolute;
+ 		font-size: 15px;
+ 	}
+	}
+	 @media screen and (max-width:246px){
+	 	img {
+ 		height: 45px;
+ 		width: 45px;
+ 		margin-left: 	30px;
+	padding: 2px;
+	margin-top: 28px;
+	box-sizing: border-box;
+ 	}
+ 	.cf{
+ 		position: absolute;
+ 		
+ 	}
+ }
+ @media screen and (max-width:196px){
+ 	h1{
+ 		font-size: 10px;
+ 	}
+ 	h5{
+ 		font-size: 9px;
+ 	}
+ 	p{
+ 		font-size: 7px;
+ 	}
+ 	.icon-block .light{
+ 		font-size: 7px;
+ 	}
+ 	#logo-container .material-icons{
+ 		position: absolute;
+ 	}
+ 	img {
+ 		height: 45px;
+ 		width: 45px;
+ 		margin-left: 	0px;
+	padding: 2px;
+	margin-top: 28px;
+	box-sizing: border-box;
+
+ 	}
+ 	.cf{
+ 		position: absolute;
+
+ 		
+ 	}
+
+ }
+   @media screen and (max-width:196px){
+ 	h1, h5, .icon-block .light{
+ 		font-size: 7px;
+ 		text-align: center;
+ 	}
+ 
+ }*/
+  @media screen and (max-width:86px){
+ 	
+ 	.row .col-md-1 .col-md-10 .content {
+ 		
+				width: 	70%;
+			max-height: 100px;
+ 	}
+}
+
