@@ -10,3 +10,10 @@
 /*.TextoSlider{
 	margin-bottom:250px;
 }*/
+
+/*@media (min-width: 40em) {
+  .carousel-inner .carousel-item picture img{
+  	background-image: url(../img/Sliderb);
+  }
+  }*/
+

@@ -96,7 +96,7 @@
 
 										}
 			iframe{
-					margin-left: 80px;
+					margin-left: 10%; /*margin-left: 80px original;*/
 					/*height: 100%; /*Responsive*/
 					/*left: 0; /*Responsive*/
 					/*position: absolute; /*Responsive*/
