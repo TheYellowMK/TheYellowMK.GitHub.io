@@ -70,26 +70,30 @@ Por ejemplo,en la URL http://unsitio.com/directorio/pagina.html, la ruta absolut
     const resultado1=document.querySelector('#resultado1');
 
 
-    const filtrar=()=>{
-
-      resultado1.innerHTML ='';
-      //console.log(formulario1.value);
-      const texto1 =formulario1.value.toLowerCase();
-
 /*ruta='';*/
 var ruta =RutaAbsoluta()
 
 function RutaAbsoluta() {
             var loc = window.location;
-            var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
+            var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/')+1);/*original lastIndexOf('/') + 1);*/
             return loc.href.substring(0, loc.href.length - ((loc.pathname + loc.search + loc.hash).length - pathName.length));
         }
 
-                      if (ruta=="file:///C:/xampp/htdocs/Programacion/Git/GitHub/b/"){
+
+
+    const filtrar=()=>{
+    	
+      resultado1.innerHTML ='';
+      //console.log(formulario1.value);
+      const texto1 =formulario1.value.toLowerCase();
+
+
+
+                      if (ruta=="https://theyellowmk.github.io/"){/*file:///C:/xampp/htdocs/Programacion/Git/GitHub/b/*/
                         valores=valores1;
-                      } else if (ruta=="file:///C:/xampp/htdocs/Programacion/Git/GitHub/b/docs/Videos/"){
+                      } else if (ruta=="https://theyellowmk.github.io/docs/Videos/"){/*file:///C:/xampp/htdocs/Programacion/Git/GitHub/b/docs/Videos/*/
                         valores=valores2;
-                      } else if (ruta=="file:///C:/xampp/htdocs/Programacion/Git/GitHub/b/docs/AcercaDe/"){
+                      } else if (ruta=="https://theyellowmk.github.io/docs/AcercaDe/"){/*file:///C:/xampp/htdocs/Programacion/Git/GitHub/b/docs/AcercaDe/*/
                         valores=valores3;
                       }
 
