@@ -87,44 +87,69 @@ filter: brightness(60%);
   }*/
 
  .BannerCapaTransp{
+ 	height: 0;	/*Responsive*/
+			overflow: hidden; /*Responsive*/
+			padding-bottom: 56.25%; /*Responsive*/
+			padding-top:30px; /*Responsive*/
+			position: relative; /*Responsive*/
+ 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/1.jpg);
 
- 	background-image: url(../img/1.jpg);
-	width: 100%;
-	height: 600px;
+	/*width: 100%;
+	height: 600px;*/
 	background-size: cover;
 	position: relative;
 
-/**para acomodar las letras**/
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
  }
 
- .BannerCapaTransp:before{
-	content: "";
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	position: absolute;
-	opacity: 0.8;
+
+@media (max-width: 20.5em) {
+ .Banner-h1{
+ 	padding-top: 6% !important;
+ 	font-size: 1em !important;
+ 	color:white;
+ }
+.Banner-p{
+	font-size: 0.5em !important;
+	padding-bottom: 20% !important;
+	color:white;
+}
 }
 
-/**para que las letras no aparescan en el fondo**/
-.BannerCapaTransp h1, h4{
-z-index: 1; /**Se pueden extraer las letras con "z-index" o con "position:relative"**/
-color: white;
+@media (max-width: 28em) {
+ .Banner-h1{
+ 	padding-top: 6% !important;
+ 	font-size: 1.8em !important;
+ 	color:white;
+ }
+.Banner-p{
+	font-size: 0.8em !important;
+	padding-bottom: 20% !important;
+	color:white;
+}
 }
 
-.BannerCapaTransp h1{
-	font-size: 60px;
-	font-family: "arial", sans-serif;
 
+@media (min-width: 28em) {
+.Banner-h1{
+ 	padding-top: 8% !important;
+ 	color:white !important;
+ }
+.Banner-p{
+	padding-bottom: 20% !important;
+	color:white !important;
+	text-align: center;
+	font-size: 1.2em !important;
+}
+	}
 
+@media (min-width: 50em) {
+.Banner-h1{
+ 	color:white !important;
+ 	font-size: 4em !important;
+ }
+.Banner-p{
+	color:white !important;
+	text-align: center;
+	font-size: 1.5em !important;
 }
-.BannerCapaTransp h4{
-	font-size:25px;
-	font-family: "arial",sans-serif;
-	width: 60%;
-	text-align:center;
-}
+	}
