@@ -86,7 +86,7 @@ filter: brightness(60%);
 }
   }*/
 
- .BannerCapaTransp{
+ .BannerCapaTransp2{
  	height: 0;	/*Responsive*/
 			overflow: hidden; /*Responsive*/
 			padding-bottom: 56.25%; /*Responsive*/
@@ -101,6 +101,22 @@ filter: brightness(60%);
 
  }
 
+/*Inicio Para agregar la imagen de extremo a extremo (En caso de no querer la imagen borrar todo lo que esta entre el inicio y el fin de este comentario)*/
+ .BannerCapaTransp1{
+ 	height: 0;	/*Responsive*/
+			overflow: hidden; /*Responsive*/
+			padding-bottom: 56.25%; /*Responsive*/
+			padding-top:30px; /*Responsive*/
+			position: relative; /*Responsive*/
+ 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/2.jpg);
+
+	/*width: 100%;
+	height: 600px;*/
+	background-size: cover;
+	position: relative;
+
+ }
+/*Inicio Para agregar la imagen de extremo a extremo (En caso de no querer la imagen borrar todo lo que esta entre el inicio y el fin de este comentario)*/
 
 @media (max-width: 20.5em) {
  .Banner-h1{
