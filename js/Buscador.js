@@ -104,8 +104,9 @@ function RutaAbsoluta() {
           if(nombre1.indexOf(texto1) !==-1){
                           //Las comillas especiales es para escribir cod html
             resultado1.innerHTML +=`    
-              <li>${valor1.nombre} - valor: ${valor1.valor}</li>
+              <li>${valor1.valor}</li>
             `
+            //<li>${valor1.nombre} - valor: ${valor1.valor}</li>//
           }
       }
         if(resultado1.innerHTML===''){
