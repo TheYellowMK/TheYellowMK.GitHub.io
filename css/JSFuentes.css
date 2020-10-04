@@ -60,3 +60,14 @@ font-family: 'Yellowtail', cursive;
 .textlogo16{
 font-family: 'Sedgwick Ave Display', cursive;
 }
+
+.textlogo17{
+font-family: 'Roboto', sans-serif;
+}
+
+.TextoSlider{
+font-family: 'Roboto', sans-serif !important;
+}
+.TextoSlider h1{
+	font-style: bold;
+}
